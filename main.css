@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    background: url('antique.jpg')center/cover;
+	text-transform:capitalize;
+	
+}
+#calculator{
+	max-width:500px;
+	flex:0 0 95%;
+	
+	
+}
+.screen{
+	width:100%;
+	font-size:4rem;
+	background:rgb(41,43,56);
+	color:white;
+	padding:1.5rem;
+	border:none;
+	border-radius:8px 8px 0 0;
+	outline:none;
+}
+.btns{
+	display:flex;
+	flex-wrap:wrap;
+	transition:all 5s linear;
+
+	
+	
+}
+button{
+	flex:0 0 25%;
+	border:1px solid black;
+	padding:0.25rem 0;
+	transition:all 0.7s ease;
+}
+
+button:hover{
+	background:blue;
+}
+.btn-yellow{
+	background:rgb(245,146,62);
+	color:white;
+}
+.btn-grey{
+	background:rgb(224,224,224);
+}
+.btn-yellow,.btn-grey,.btn-equal,.btn-clear{
+	font-size:2rem;
+}
+.btn-equal{
+	background:green;
+}
+.btn-clear{
+	background:red;
+}
+.clock{
+	background:black;
+	color:white;
+	font-size:5rem;
+	display:flex;
+	justify-content:top;
+	align-items:center;
+	border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
